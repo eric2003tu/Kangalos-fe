@@ -1,0 +1,38 @@
+name: "📚 Documentation Request"
+description: "Request new documentation or report an issue with existing docs."
+title: "[Docs] <short description>"
+labels: [documentation]
+body:
+  - type: input
+    id: doc
+    attributes:
+      label: "Documentation Area"
+      description: "Which doc or section needs work?"
+      placeholder: "e.g. /docs/auth.md, README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Issue or Request"
+      description: "Describe the documentation issue or what needs to be added."
+      placeholder: "What is missing or unclear?"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested Content"
+      description: "Suggest content or improvements."
+      placeholder: "Provide details or examples."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked for existing documentation."
+          required: true
+        - label: "My request aligns with project conventions."
+          required: true

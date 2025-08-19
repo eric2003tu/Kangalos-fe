@@ -1,0 +1,76 @@
+name: "🐞 Bug Report"
+description: "Report a reproducible bug in Kangalos frontend."
+title: "[Bug] <short description>"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out all required fields. Bugs must be reproducible and clearly described.
+  - type: input
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Briefly describe the bug."
+      placeholder: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the bug."
+      placeholder: "1. Go to...\n2. Click on...\n3. See error..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+      placeholder: "Describe the expected behavior."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior"
+      description: "What actually happened?"
+      placeholder: "Describe what actually happened."
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser/Device"
+      description: "Which browser/device/OS did you use?"
+      placeholder: "e.g. Chrome 125, Windows 11, mobile Safari"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Attach screenshots if applicable."
+      placeholder: "Drag and drop images here."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Relevant Console/Network Logs"
+      description: "Paste any error logs or stack traces."
+      placeholder: "Paste logs here."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have searched for duplicate issues."
+          required: true
+        - label: "I have run `npm run lint` and `npm run build` to verify the bug is not caused by a build error."
+          required: true
+        - label: "All user-facing text is translatable."
+          required: true

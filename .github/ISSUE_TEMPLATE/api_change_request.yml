@@ -1,0 +1,38 @@
+name: "🔄 API Change Request"
+description: "Propose a change to an existing API or request a new endpoint."
+title: "[API] <short description>"
+labels: [api, backend]
+body:
+  - type: input
+    id: endpoint
+    attributes:
+      label: "API Endpoint"
+      description: "Which endpoint is affected or needed?"
+      placeholder: "e.g. /api/projects, /api/auth/login"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: "Change Description"
+      description: "Describe the change or new endpoint."
+      placeholder: "What should be changed or added?"
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impact"
+      description: "What is the impact of this change? (breaking, new feature, etc.)"
+      placeholder: "Describe the impact."
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked for existing endpoints and documentation."
+          required: true
+        - label: "I have considered backward compatibility."
+          required: true

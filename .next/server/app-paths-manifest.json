@@ -1,0 +1,16 @@
+{
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/projectPage/[id]/edit-project/page": "app/dashboard/projectPage/[id]/edit-project/page.js",
+  "/dashboard/projectPage/[id]/find-funder/page": "app/dashboard/projectPage/[id]/find-funder/page.js",
+  "/dashboard/projectPage/[id]/page": "app/dashboard/projectPage/[id]/page.js",
+  "/dashboard/projectPage/[id]/provide-funds/page": "app/dashboard/projectPage/[id]/provide-funds/page.js",
+  "/dashboard/projectPage/[id]/report/page": "app/dashboard/projectPage/[id]/report/page.js",
+  "/dashboard/projectPage/[id]/startup/page": "app/dashboard/projectPage/[id]/startup/page.js",
+  "/dashboard/projectPage/create-project/page": "app/dashboard/projectPage/create-project/page.js",
+  "/dashboard/projectPage/page": "app/dashboard/projectPage/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

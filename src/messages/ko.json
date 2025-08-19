@@ -1,0 +1,1012 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "보기",
+    "search": "검색",
+    "clear": "지우기",
+    "filter": "필터",
+    "submit": "제출",
+    "back": "뒤로",
+    "next": "다음",
+    "select": "선택",
+    "required": "필수"
+  },
+  "navigation": {
+    "home": "홈",
+    "about": "소개",
+    "routes": "노선",
+    "conditions": "이용약관",
+    "getStarted": "시작하기",
+    "notifications": "알림"
+  },
+  "dashboard": {
+    "greeting": "안녕하세요",
+    "welcomeBack": "돌아오신 것을 환영합니다",
+    "totalEarnings": "총 수익",
+    "todaysBookings": "오늘의 예약"
+  },
+  "settings": {
+    "title": "설정",
+    "tabs": {
+      "profile": "프로필"
+    },
+    "profile": {
+      "fullName": "성명"
+    },
+    "actions": {
+      "saveSettings": "설정 저장"
+    }
+  },
+  "systemSettings": {
+    "actions": {
+      "edit": "편집"
+    }
+  },
+  "support": {
+    "title": "지원",
+    "contact": {
+      "technicalSupport": "기술 지원",
+      "submitTechnicalTicket": "기술 지원 티켓 제출"
+    },
+    "emergencySupport": "응급 지원"
+  },
+  "users": {
+    "title": "사용자",
+    "pageDescription": "시스템의 모든 사용자를 관리하고 조회합니다",
+    "total": "총계",
+    "stats": {
+      "passengers": "승객",
+      "administrator": "관리자"
+    },
+    "common": {
+      "search": "사용자 검색"
+    },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "사용자 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "사용자 로드 실패.",
+      "userNotFound": "사용자를 찾을 수 없습니다."
+    },
+    "table": {
+      "firstName": "이름",
+      "username": "사용자명",
+      "email": "이메일",
+      "phone": "전화번호",
+      "userType": "사용자 유형",
+      "verification": "확인",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "userTypes": {
+      "organisation": "기관",
+      "student": "학생",
+      "staff": "직원",
+      "individual": "개인"
+    },
+    "status": {
+      "verified": "확인됨",
+      "unverified": "미확인"
+    },
+    "dialogs": {
+      "create": {
+        "title": "사용자 생성",
+        "description": "새 사용자를 생성하기 위한 양식을 작성하세요"
+      },
+      "edit": {
+        "title": "사용자 편집",
+        "description": "사용자 정보를 업데이트합니다"
+      },
+      "delete": {
+        "title": "사용자 삭제",
+        "description": "{name} ({username} - {email}) 사용자를 삭제하시겠습니까?",
+        "warning": "이 작업은 되돌릴 수 없습니다.",
+        "confirmLabel": "확인을 위해 {name} 입력"
+      },
+      "details": {
+        "title": "사용자 세부 정보",
+        "description": "사용자에 대한 자세한 정보를 봅니다"
+      }
+    },
+    "form": {
+      "firstName": "이름",
+      "firstNamePlaceholder": "길동",
+      "lastName": "성",
+      "lastNamePlaceholder": "홍",
+      "username": "사용자명",
+      "usernamePlaceholder": "honggd",
+      "email": "이메일",
+      "emailPlaceholder": "hong@example.com",
+      "phone": "전화번호",
+      "phonePlaceholder": "01012345678",
+      "userType": "사용자 유형",
+      "userTypePlaceholder": "유형 선택",
+      "password": "비밀번호",
+      "passwordPlaceholder": "비밀번호 입력",
+      "optional": "선택 사항"
+    },
+    "tabs": {
+      "details": "세부 정보",
+      "roles": "역할",
+      "positions": "직위",
+      "projects": "프로젝트"
+    },
+    "sections": {
+      "personalInfo": "개인 정보",
+      "roles": "역할",
+      "rolesDescription": "사용자에게 부여된 역할 목록",
+      "positions": "직위",
+      "positionsDescription": "사용자의 직위",
+      "projects": "프로젝트",
+      "projectsDescription": "사용자가 참여하는 프로젝트"
+    },
+    "labels": {
+      "since": "시작일",
+      "joined": "참여일"
+    },
+    "empty": {
+      "roles": "역할이 없습니다",
+      "positions": "직위가 없습니다",
+      "projects": "프로젝트가 없습니다"
+    },
+    "roles": {
+      "admin": "관리자"
+    }
+  },
+  "startups": {
+    "title": "스타트업",
+    "pageDescription": "시스템의 모든 스타트업을 관리하고 보기",
+    "total": "총",
+    "common": {
+      "search": "스타트업 검색"
+    },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "스타트업 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "스타트업을 불러오지 못했습니다.",
+      "startupNotFound": "스타트업을 찾을 수 없습니다."
+    },
+    "table": {
+      "name": "이름",
+      "description": "설명",
+      "year": "연도",
+      "registered": "등록됨",
+      "createdAt": "생성",
+      "actions": "작업"
+    },
+    "status": {
+      "registered": "등록됨",
+      "unregistered": "미등록"
+    },
+    "dialogs": {
+      "create": {
+        "title": "스타트업 생성",
+        "description": "새 스타트업을 만들기 위해 양식을 작성하세요"
+      },
+      "edit": {
+        "title": "스타트업 편집",
+        "description": "스타트업 정보를 업데이트"
+      },
+      "delete": {
+        "title": "스타트업 삭제",
+        "description": "{name}을(를) 삭제하시겠습니까?",
+        "warning": "이 작업은 되돌릴 수 없습니다.",
+        "confirmLabel": "{name}을(를) 입력하여 확인"
+      }
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "스타트업 이름 입력",
+      "description": "설명",
+      "descriptionPlaceholder": "설명 입력",
+      "projectId": "프로젝트 ID",
+      "projectIdPlaceholder": "프로젝트 ID 입력",
+      "year": "연도",
+      "yearPlaceholder": "연도 입력",
+      "registered": "등록됨"
+    }
+  },
+  "funders": {
+    "title": "기금 제공자",
+    "pageDescription": "시스템의 모든 기금 제공자를 관리하고 조회합니다",
+    "total": "총계",
+    "common": {
+      "search": "기금 제공자 검색"
+    },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "기금 제공자 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "기금 제공자 로드 실패.",
+      "funderNotFound": "기금 제공자를 찾을 수 없습니다."
+    },
+    "noFundersFound": "기금 제공자를 찾을 수 없습니다",
+    "table": {
+      "name": "이름",
+      "funderType": "기금 유형",
+      "contactEmail": "연락처 이메일",
+      "contactPhone": "연락처 전화번호",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {
+        "title": "기금 제공자 생성",
+        "description": "새 기금 제공자를 생성하기 위한 양식을 작성하세요"
+      },
+      "edit": {
+        "title": "기금 제공자 편집",
+        "description": "기금 제공자 정보를 업데이트합니다"
+      },
+      "delete": {
+        "title": "기금 제공자 삭제",
+        "description": "{name} 기금 제공자를 삭제하시겠습니까?",
+        "warning": "이 작업은 되돌릴 수 없습니다.",
+        "confirmLabel": "확인을 위해 {name} 입력"
+      },
+      "details": {
+        "title": "기금 제공자 세부 정보",
+        "description": "기금 제공자에 대한 자세한 정보를 봅니다"
+      }
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "세계은행",
+      "funderType": "기금 유형",
+      "funderTypePlaceholder": "예: 정부",
+      "contactEmail": "연락처 이메일",
+      "contactEmailPlaceholder": "contact@example.com",
+      "contactPhone": "연락처 전화번호",
+    "contactPhonePlaceholder": "123456789"
+    }
+  },
+  "permissions": {
+    "title": "권한",
+    "pageDescription": "시스템 권한 관리",
+    "total": "총계",
+    "common": {"search": "권한 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "권한 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "권한을 불러오지 못했습니다.",
+      "permissionNotFound": "권한을 찾을 수 없습니다."
+    },
+    "table": {
+      "code": "코드",
+      "description": "설명",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "권한 생성", "description": "새 권한을 생성합니다"},
+      "edit": {"title": "권한 편집", "description": "권한 정보를 수정합니다"},
+      "delete": {"title": "권한 삭제", "description": "{code} 권한을 삭제하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "{code} 입력"}
+    },
+    "form": {
+      "code": "코드",
+      "codePlaceholder": "CREATE_USER",
+      "description": "설명",
+      "descriptionPlaceholder": "권한 설명"
+    }
+  },
+  "rolesFeature": {
+    "title": "역할",
+    "pageDescription": "사용자 역할 관리",
+    "total": "총계",
+    "common": {"search": "역할 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "역할 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "역할을 불러오지 못했습니다.",
+      "roleNotFound": "역할을 찾을 수 없습니다."
+    },
+    "table": {
+      "name": "이름",
+      "description": "설명",
+      "organisationUnit": "조직 단위",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "역할 생성", "description": "새 역할을 생성합니다"},
+      "edit": {"title": "역할 편집", "description": "역할 정보를 수정합니다"},
+      "delete": {"title": "역할 삭제", "description": "{name} 역할을 삭제하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "{name} 입력"}
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "매니저",
+      "description": "설명",
+      "descriptionPlaceholder": "역할 설명",
+    "organisationUnit": "조직 단위",
+    "organisationUnitPlaceholder": "단위 선택"
+    }
+  },
+  "userRoles": {
+    "title": "사용자 역할",
+    "pageDescription": "역할 할당 관리",
+    "total": "총계",
+    "common": {"search": "할당 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "역할 할당",
+      "creating": "할당 중...",
+      "delete": "제거",
+      "deleting": "제거 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "할당을 불러오지 못했습니다.",
+      "assignmentNotFound": "할당을 찾을 수 없습니다."
+    },
+    "table": {
+      "user": "사용자",
+      "role": "역할",
+      "createdAt": "할당일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "역할 할당", "description": "사용자와 역할을 선택하세요"},
+      "delete": {"title": "할당 제거", "description": "{user}의 {role} 역할을 제거하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "YES 입력"}
+    },
+    "form": {
+      "userId": "사용자",
+      "userIdPlaceholder": "사용자 ID",
+      "roleId": "역할",
+      "roleIdPlaceholder": "역할 ID"
+    }
+  },
+  "userPositions": {
+    "title": "사용자 직위",
+    "pageDescription": "사용자와 직위의 할당 관리",
+    "total": "총계",
+    "actions": {
+      "refresh": "새로고침",
+      "create": "직위 할당",
+      "creating": "할당 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "할당을 불러오지 못했습니다.",
+      "notFound": "할당을 찾을 수 없습니다."
+    },
+    "table": {
+      "username": "사용자명",
+      "position": "직위",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {
+        "title": "직위 할당",
+        "description": "사용자에게 직위를 할당합니다"
+      },
+      "edit": {
+        "title": "할당 편집",
+        "description": "할당 정보를 수정합니다"
+      },
+      "delete": {
+        "title": "할당 삭제",
+        "description": "이 할당을 삭제하시겠습니까?",
+        "warning": "이 작업은 되돌릴 수 없습니다.",
+        "confirmLabel": "삭제 확인을 위해 DELETE 입력"
+      }
+    },
+    "form": {
+      "userId": "사용자",
+      "userIdPlaceholder": "사용자 선택",
+      "positionId": "직위",
+      "positionIdPlaceholder": "직위 선택",
+      "startDate": "시작일",
+      "endDate": "종료일"
+    }
+  },
+  "permissions": {
+    "title": "권한",
+    "pageDescription": "시스템 권한 관리",
+    "total": "총계",
+    "common": {"search": "권한 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "권한 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "권한을 불러오지 못했습니다.",
+      "permissionNotFound": "권한을 찾을 수 없습니다."
+    },
+    "table": {
+      "code": "코드",
+      "description": "설명",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "권한 생성", "description": "새 권한을 생성합니다"},
+      "edit": {"title": "권한 편집", "description": "권한 정보를 수정합니다"},
+      "delete": {"title": "권한 삭제", "description": "{code} 권한을 삭제하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "{code} 입력"}
+    },
+    "form": {
+      "code": "코드",
+      "codePlaceholder": "CREATE_USER",
+      "description": "설명",
+      "descriptionPlaceholder": "권한 설명"
+    }
+  },
+  "rolesFeature": {
+    "title": "역할",
+    "pageDescription": "사용자 역할 관리",
+    "total": "총계",
+    "common": {"search": "역할 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "역할 생성",
+      "creating": "생성 중...",
+      "edit": "편집",
+      "update": "업데이트",
+      "updating": "업데이트 중...",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "역할을 불러오지 못했습니다.",
+      "roleNotFound": "역할을 찾을 수 없습니다."
+    },
+    "table": {
+      "name": "이름",
+      "description": "설명",
+      "organisationUnit": "조직 단위",
+      "createdAt": "생성일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "역할 생성", "description": "새 역할을 생성합니다"},
+      "edit": {"title": "역할 편집", "description": "역할 정보를 수정합니다"},
+      "delete": {"title": "역할 삭제", "description": "{name} 역할을 삭제하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "{name} 입력"}
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "매니저",
+      "description": "설명",
+      "descriptionPlaceholder": "역할 설명",
+    "organisationUnit": "조직 단위",
+    "organisationUnitPlaceholder": "단위 선택"
+    }
+  },
+  "userRoles": {
+    "title": "사용자 역할",
+    "pageDescription": "역할 할당 관리",
+    "total": "총계",
+    "common": {"search": "할당 검색"},
+    "actions": {
+      "refresh": "새로고침",
+      "create": "역할 할당",
+      "creating": "할당 중...",
+      "delete": "제거",
+      "deleting": "제거 중...",
+      "retry": "다시 시도",
+      "close": "닫기",
+      "cancel": "취소"
+    },
+    "errors": {
+      "loadFailed": "할당을 불러오지 못했습니다.",
+      "assignmentNotFound": "할당을 찾을 수 없습니다."
+    },
+    "table": {
+      "user": "사용자",
+      "role": "역할",
+      "createdAt": "할당일",
+      "updatedAt": "수정일",
+      "actions": "동작"
+    },
+    "dialogs": {
+      "create": {"title": "역할 할당", "description": "사용자와 역할을 선택하세요"},
+      "delete": {"title": "할당 제거", "description": "{user}의 {role} 역할을 제거하시겠습니까?", "warning": "이 작업은 되돌릴 수 없습니다.", "confirmLabel": "YES 입력"}
+    },
+    "form": {
+      "userId": "사용자",
+      "userIdPlaceholder": "사용자 선택",
+      "roleId": "역할",
+      "roleIdPlaceholder": "역할 선택"
+    },
+    "noUsersFound": "사용자를 찾을 수 없습니다",
+    "noRolesFound": "역할을 찾을 수 없습니다"
+  },
+  "categories": {
+    "page": {
+      "title": "카테고리",
+      "description": "트리에서 카테고리를 클릭하여 세부 정보와 하위 항목을 확인하세요."
+    },
+    "loading": "카테고리 불러오는 중...",
+    "error": "카테고리를 불러오는 중 오류가 발생했습니다",
+    "empty": {
+      "title": "카테고리가 없습니다",
+      "description": "카테고리 목록이 비어 있습니다."
+    },
+    "tree": {
+      "title": "카테고리 트리",
+      "rootLabel": "카테고리",
+      "instructions": "트리에서 카테고리를 선택하면 하위 항목이 표에 표시됩니다"
+    },
+    "table": {
+      "name": "이름",
+      "description": "설명",
+      "updated": "수정됨",
+      "actions": "작업",
+      "openMenu": "메뉴 열기",
+      "editCategory": "카테고리 수정",
+      "addChild": "하위 카테고리 추가",
+      "deleteCategory": "카테고리 삭제",
+      "showing": "표시:",
+      "andChildren": "및 하위 항목",
+      "selectCategory": "트리에서 카테고리를 선택하면 하위 항목을 볼 수 있습니다",
+      "noChildren": "{name} 아래에 하위 카테고리가 없습니다"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "카테고리 수정",
+        "description": "카테고리 정보를 업데이트합니다"
+      },
+      "addChild": {
+        "title": "하위 카테고리 추가",
+        "description": "이 카테고리 아래에 새 카테고리를 생성합니다"
+      },
+      "delete": {
+        "title": "카테고리 삭제",
+        "description": "{name}을(를) 삭제하시겠습니까?",
+        "warning": "이 작업은 되돌릴 수 없습니다.",
+        "confirmLabel": "확인하려면 {name}을(를) 입력하세요"
+      }
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "카테고리 이름",
+      "description": "설명",
+      "descriptionPlaceholder": "카테고리 설명"
+    },
+    "actions": {
+      "cancel": "취소",
+      "create": "생성",
+      "update": "업데이트",
+      "delete": "삭제",
+      "deleting": "삭제 중...",
+      "close": "닫기"
+    },
+    "errors": {
+      "loadFailed": "카테고리를 불러오지 못했습니다.",
+      "categoryNotFound": "카테고리를 찾을 수 없습니다."
+    }
+  },
+  "organisationUnits": {
+    "page": {
+      "title": "기관 조직 구조",
+      "description": "트리에서 단위를 클릭하여 세부 정보와 하위 단위를 확인합니다."
+    },
+    "loading": "조직 구조를 불러오는 중...",
+    "error": "조직 구조 로드 오류",
+    "empty": {
+      "title": "조직 단위를 찾을 수 없습니다",
+      "description": "조직 구조가 비어 있습니다."
+    },
+    "tree": {
+      "title": "조직 트리",
+      "rootLabel": "조직",
+      "instructions": "트리에서 단위를 선택하면 표에 하위 단위가 표시됩니다"
+    },
+    "table": {
+      "name": "이름",
+      "code": "코드",
+      "level": "레벨",
+      "email": "이메일",
+      "phone": "전화",
+      "location": "위치",
+      "updated": "수정일",
+      "actions": "동작",
+      "openMenu": "메뉴 열기",
+      "viewDetails": "세부 정보 보기",
+      "editUnit": "단위 편집",
+      "addChild": "하위 단위 추가",
+      "managePositions": "직위 관리",
+      "viewUsers": "사용자 보기",
+      "deleteUnit": "단위 삭제",
+      "showing": "표시 중",
+      "andChildren": "및 하위 단위",
+      "selectUnit": "트리에서 단위를 선택하여 하위 단위를 확인합니다",
+      "noChildren": "{name} 하위 단위가 없습니다"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "조직 단위 수정",
+        "description": "조직 단위 정보를 업데이트"
+      },
+      "addChild": {
+        "title": "하위 단위 추가",
+        "description": "이 단위 아래 새 단위를 만듭니다"
+      },
+      "delete": {
+        "title": "조직 단위 삭제",
+        "description": "{name} 을(를) 삭제하시겠습니까?",
+        "warning": "이 동작은 되돌릴 수 없습니다.",
+        "confirmLabel": "확인을 위해 {name} 입력"
+      }
+    },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "단위 이름",
+      "code": "코드",
+      "codePlaceholder": "CODE"
+    },
+    "tabs": {
+      "positions": "직위",
+      "projects": "프로젝트",
+      "stakeholders": "이해관계자",
+      "users": "사용자"
+    },
+    "details": {
+      "basicInfo": "기본 정보",
+      "basicInfoDesc": "조직 단위 세부정보"
+    },
+    "emptyLists": {
+      "positions": "직위 없음",
+      "projects": "프로젝트 없음",
+      "stakeholders": "이해관계자 없음"
+    }
+  },
+  "positions": {
+    "title": "직위",
+    "total": "총계",
+    "common": { "search": "직위 검색" },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "직위 생성",
+      "creating": "생성 중...",
+      "retry": "다시 시도",
+      "cancel": "취소"
+    },
+    "errors": { "loadFailed": "직위를 불러오지 못했습니다." },
+    "table": { "title": "제목", "description": "설명", "createdAt": "생성일" },
+    "dialogs": { "create": { "title": "직위 생성", "description": "새 직위 추가" } },
+    "form": {
+      "title": "제목",
+      "titlePlaceholder": "직위 제목",
+      "description": "설명",
+      "descriptionPlaceholder": "설명"
+    }
+  },
+  "projects": {
+    "title": "프로젝트",
+    "total": "총계",
+    "common": { "search": "프로젝트 검색" },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "프로젝트 생성",
+      "creating": "생성 중...",
+      "retry": "다시 시도",
+      "cancel": "취소",
+      "add": "추가",
+      "back": "뒤로",
+      "next": "다음",
+      "finish": "완료"
+    },
+    "errors": { "loadFailed": "프로젝트를 불러오지 못했습니다." },
+    "table": { "title": "제목", "projectType": "유형", "year": "연도" },
+    "dialogs": { "create": { "title": "프로젝트 생성", "description": "새 프로젝트 추가" } },
+    "form": {
+      "title": "제목",
+      "titlePlaceholder": "프로젝트 제목",
+      "titleNorm": "정규화 제목",
+      "titleNormPlaceholder": "정규화 제목",
+      "projectType": "유형",
+      "projectTypePlaceholder": "프로젝트 유형",
+      "year": "연도",
+      "organisationUnitId": "조직 단위"
+    },
+    "wizard": {
+      "steps": {
+        "0": "세부 정보 & SDGs",
+        "1": "저자",
+        "2": "이해관계자",
+        "3": "자금 제공자",
+        "4": "첨부 파일",
+        "5": "평가",
+        "6": "보고서",
+        "7": "스타트업"
+      },
+      "form": {
+        "sdgs": "SDGs",
+        "authorUser": "사용자",
+        "authorRole": "역할",
+        "stakeholder": "이해관계자",
+        "stakeholderRole": "역할",
+        "funder": "자금 제공자",
+        "funderAmount": "금액",
+        "attachmentUploader": "업로더",
+        "attachmentFilename": "파일명",
+        "attachmentUrl": "URL",
+        "evaluationEvaluator": "평가자",
+        "evaluationScore": "점수",
+        "evaluationComments": "코멘트",
+        "reportTitle": "제목",
+        "reportContent": "내용",
+        "reportSubmittedBy": "제출자",
+        "startupName": "이름",
+        "startupDescription": "설명",
+        "startupYear": "연도",
+        "startupRegistered": "등록됨"
+      },
+      "stepLabel": "단계 {current}/{total}: {name}",
+      "completed": "완료",
+      "finishMessage": "프로젝트 설정 완료"
+    }
+  },
+  "stakeholders": {
+    "title": "이해관계자",
+    "total": "총계",
+    "common": { "search": "이해관계자 검색" },
+    "actions": {
+      "refresh": "새로고침",
+      "create": "이해관계자 생성",
+      "creating": "생성 중...",
+      "retry": "다시 시도",
+      "cancel": "취소"
+    },
+    "errors": { "loadFailed": "이해관계자를 불러오지 못했습니다." },
+    "noStakeholdersFound": "이해관계자를 찾을 수 없습니다",
+    "table": {
+      "name": "이름",
+      "stakeholderType": "유형",
+      "contactEmail": "이메일",
+      "contactPhone": "전화"
+    },
+    "dialogs": { "create": { "title": "이해관계자 생성", "description": "새 이해관계자 추가" } },
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "이해관계자 이름",
+      "stakeholderType": "유형",
+      "stakeholderTypePlaceholder": "유형",
+      "contactEmail": "이메일",
+      "contactEmailPlaceholder": "email@example.com",
+      "contactPhone": "전화",
+      "contactPhonePlaceholder": "123456789"
+    }
+  },
+  "reports": {
+    "title": "보고서",
+    "tabs": {
+      "overview": "개요"
+    },
+    "overview": {
+      "totalEarnings": "총 수익"
+    },
+    "exportButtons": {
+      "csv": "CSV 내보내기"
+    },
+    "todayIs": "오늘은",
+    "dateRanges": {
+      "last7Days": "최근 7일"
+    }
+  },
+  "routes": {
+    "title": "노선",
+    "table": {
+      "from": "출발지",
+      "to": "목적지",
+      "price": "가격"
+    },
+    "noRoutesFound": "노선을 찾을 수 없습니다"
+  },
+  "schedules": {
+    "title": "시간표",
+    "filters": {
+      "all": "전체"
+    },
+    "status": {
+      "onTime": "정시"
+    },
+    "table": {
+      "busNumber": "버스 번호",
+      "driver": "운전사"
+    },
+    "timeFrames": {
+      "today": "오늘"
+    }
+  },
+  "attachments": {
+    "title": "첨부 파일",
+    "upload": "파일 업로드",
+    "uploading": "업로드 중...",
+    "uploadSuccess": "파일이 성공적으로 업로드되었습니다",
+    "uploadError": "업로드에 실패했습니다"
+  },
+  "Auth": {
+    "EmailVerification": {
+      "title": "이메일 인증",
+      "description": "이메일 주소 인증",
+      "verifying": "이메일 주소 인증 중...",
+      "success": "이메일이 성공적으로 인증되었습니다!",
+      "error": "이메일 주소 인증 중 문제가 발생했습니다.",
+      "proceedToLogin": "로그인으로 진행",
+      "backToLogin": "로그인으로 돌아가기"
+    },
+    "ForgotPassword": {
+      "title": "비밀번호 찾기",
+      "description": "비밀번호 재설정을 위해 이메일을 입력하세요",
+      "emailLabel": "이메일",
+      "emailPlaceholder": "john@example.com",
+      "sendingLink": "재설정 링크 전송 중...",
+      "sendLink": "재설정 링크 보내기",
+      "rememberPassword": "비밀번호를 기억하셨나요?",
+      "loginLink": "로그인"
+    },
+    "Login": {
+      "title": "다시 오신 것을 환영합니다",
+      "description": "계정에 접근하려면 자격 증명을 입력하세요",
+      "emailLabel": "이메일",
+      "emailPlaceholder": "john@example.com",
+      "passwordLabel": "비밀번호",
+      "forgotPasswordLink": "비밀번호를 잊으셨나요?",
+      "signingIn": "로그인 중...",
+      "signIn": "로그인"
+    },
+    "ResetPassword": {
+      "title": "비밀번호 재설정",
+      "description": "새 비밀번호를 입력하세요",
+      "newPasswordLabel": "새 비밀번호",
+      "newPasswordPlaceholder": "새 비밀번호 입력",
+      "confirmPasswordLabel": "비밀번호 확인",
+      "confirmPasswordPlaceholder": "새 비밀번호 확인",
+      "resettingPassword": "비밀번호 재설정 중...",
+      "resetPassword": "비밀번호 재설정",
+      "rememberPassword": "비밀번호를 기억하셨나요?",
+      "loginLink": "로그인"
+    },
+    "noRoles": "역할 없음",
+    "logoutSuccess": "성공적으로 로그아웃되었습니다!",
+    "editProfile": "프로필 편집",
+    "changeLanguage": "언어 변경 ({language})",
+    "changeTheme": "테마 변경 ({mode})",
+    "settings": "설정",
+    "account": "계정",
+    "help": "도움말 및 지원",
+    "about": "정보",
+    "logout": "로그아웃",
+    "version": "버전",
+    "developedBy": "개발자",
+    "status": "상태",
+    "lastUpdated": "최종 업데이트"
+  },
+  "sidebar": {
+    "notifications": {
+      "title": "알림",
+      "markAllRead": "모두 읽음으로 표시",
+      "clearAll": "모두 지우기",
+      "markAsUnread": "읽지 않음으로 표시",
+      "markAsRead": "읽음으로 표시",
+      "deleteNotification": "알림 삭제",
+      "ignore": "무시",
+      "viewAll": "모든 알림 보기"
+    },
+    "Management": "관리",
+    "Dashboard": "대시보드",
+    "Projects": "프로젝트",
+    "Tasks": "작업",
+    "Users": "사용자",
+    "Reporting": "보고",
+    "Reports": "보고서",
+    "Analytics": "분석",
+    "OrganisationUnits": "조직 단위",
+    "Roles": "역할",
+    "Permissions": "권한",
+    "Categories": "카테고리",
+    "Attachments": "첨부 파일",
+    "Positions": "직위",
+    "UserRoles": "사용자 역할",
+    "UserPositions": "사용자 직위",
+    "Funders": "자금 제공자",
+    "Stakeholders": "이해 관계자",
+    "Evaluations": "평가",
+    "ProjectAuthors": "프로젝트 작성자",
+    "ProjectReports": "프로젝트 보고서",
+    "ProjectStakeholders": "프로젝트 이해 관계자",
+    "ProjectEvaluations": "프로젝트 평가",
+    "ProjectFunders": "프로젝트 자금 제공자",
+    "Startups": "스타트업",
+    "SDGs": "SDGs",
+    "Theme": "테마",
+    "Light": "밝게",
+    "Dark": "어둡게",
+    "Language": "언어",
+    "English": "영어",
+    "French": "프랑스어",
+    "Korean": "한국어",
+    "Preferences": "환경 설정",
+    "SignOut": "로그아웃",
+    "systemName": "Kangalos"
+  }
+}

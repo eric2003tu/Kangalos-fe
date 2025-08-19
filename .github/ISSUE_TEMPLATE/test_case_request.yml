@@ -1,0 +1,38 @@
+name: "🧪 Test Case Request"
+description: "Request a new test case or report a test coverage gap."
+title: "[Test] <short description>"
+labels: [test, quality]
+body:
+  - type: input
+    id: area
+    attributes:
+      label: "Feature/Area"
+      description: "Which feature or area needs a test?"
+      placeholder: "e.g. Auth, Project Reports, Language Switcher"
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: "Test Scenario"
+      description: "Describe the scenario to be tested."
+      placeholder: "What should be tested?"
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: "Value of Test"
+      description: "Why is this test important?"
+      placeholder: "Describe the value or risk."
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked for existing test cases."
+          required: true
+        - label: "This test aligns with project requirements."
+          required: true

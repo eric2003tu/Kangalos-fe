@@ -1,0 +1,1013 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "clear": "Clear",
+    "filter": "Filter",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "select": "Select",
+    "required": "Required",
+    "unknown": "Unknown"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "routes": "Routes",
+    "conditions": "Terms & Conditions",
+    "getStarted": "Get Started",
+    "notifications": "Notifications"
+  },
+  "dashboard": {
+    "greeting": "Hello",
+    "welcomeBack": "Welcome Back",
+    "totalEarnings": "Total Earnings",
+    "todaysBookings": "Today's Bookings"
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "profile": "Profile"
+    },
+    "profile": {
+      "fullName": "Full Name"
+    },
+    "actions": {
+      "saveSettings": "Save Settings"
+    }
+  },
+  "systemSettings": {
+    "actions": {
+      "edit": "Edit"
+    }
+  },
+  "support": {
+    "title": "Support",
+    "contact": {
+      "technicalSupport": "Technical Support",
+      "submitTechnicalTicket": "Submit Technical Ticket"
+    },
+    "emergencySupport": "Emergency Support"
+  },
+  "users": {
+    "title": "Users",
+    "pageDescription": "Manage and view all users in the system",
+    "total": "Total",
+    "stats": {
+      "passengers": "Passengers",
+      "administrator": "Administrator"
+    },
+    "common": {
+      "search": "Search Users"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create User",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load users.",
+      "userNotFound": "User not found."
+    },
+    "table": {
+      "firstName": "First Name",
+      "username": "Username",
+      "email": "Email",
+      "phone": "Phone",
+      "userType": "User Type",
+      "verification": "Verification",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "userTypes": {
+      "organisation": "Organisation",
+      "student": "Student",
+      "staff": "Staff",
+      "individual": "Individual"
+    },
+    "status": {
+      "verified": "Verified",
+      "unverified": "Unverified"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Create User",
+        "description": "Fill in the form to create a new user"
+      },
+      "edit": {
+        "title": "Edit User",
+        "description": "Update user information"
+      },
+      "delete": {
+        "title": "Delete User",
+        "description": "Are you sure you want to delete {name} ({username} - {email})?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type {name} to confirm"
+      },
+      "details": {
+        "title": "User Details",
+        "description": "View detailed information about the user"
+      }
+    },
+    "form": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "username": "Username",
+      "usernamePlaceholder": "jdoe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "123456789",
+      "userType": "User Type",
+      "userTypePlaceholder": "Select user type",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "optional": "optional"
+    },
+    "tabs": {
+      "details": "Details",
+      "roles": "Roles",
+      "positions": "Positions",
+      "projects": "Projects"
+    },
+    "sections": {
+      "personalInfo": "Personal Information",
+      "roles": "Roles",
+      "rolesDescription": "List of roles assigned to this user",
+      "positions": "Positions",
+      "positionsDescription": "User's positions",
+      "projects": "Projects",
+      "projectsDescription": "Projects this user is involved in"
+    },
+    "labels": {
+      "since": "Since",
+      "joined": "Joined"
+    },
+    "empty": {
+      "roles": "No roles assigned",
+      "positions": "No positions found",
+      "projects": "No projects found"
+    },
+    "roles": {
+      "admin": "Admin"
+    }
+  },
+  "startups": {
+    "title": "Startups",
+    "pageDescription": "Manage and view all startups in the system",
+    "total": "Total",
+    "common": {
+      "search": "Search Startups"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Startup",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load startups.",
+      "startupNotFound": "Startup not found."
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "year": "Year",
+      "registered": "Registered",
+      "createdAt": "Created",
+      "actions": "Actions"
+    },
+    "status": {
+      "registered": "Registered",
+      "unregistered": "Unregistered"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Create Startup",
+        "description": "Fill in the form to create a new startup"
+      },
+      "edit": {
+        "title": "Edit Startup",
+        "description": "Update startup information"
+      },
+      "delete": {
+        "title": "Delete Startup",
+        "description": "Are you sure you want to delete {name}?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type {name} to confirm"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter startup name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter description",
+      "projectId": "Project ID",
+      "projectIdPlaceholder": "Enter project ID",
+      "year": "Year",
+      "yearPlaceholder": "Enter year",
+      "registered": "Registered"
+    }
+  },
+  "funders": {
+    "title": "Funders",
+    "pageDescription": "Manage and view all funders in the system",
+    "total": "Total",
+    "common": {
+      "search": "Search Funders"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Funder",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load funders.",
+      "funderNotFound": "Funder not found."
+    },
+    "noFundersFound": "No funders found",
+    "table": {
+      "name": "Name",
+      "funderType": "Funder Type",
+      "contactEmail": "Contact Email",
+      "contactPhone": "Contact Phone",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Create Funder",
+        "description": "Fill in the form to create a new funder"
+      },
+      "edit": {
+        "title": "Edit Funder",
+        "description": "Update funder information"
+      },
+      "delete": {
+        "title": "Delete Funder",
+        "description": "Are you sure you want to delete {name}?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type {name} to confirm"
+      },
+      "details": {
+        "title": "Funder Details",
+        "description": "View detailed information about the funder"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "World Bank",
+      "funderType": "Funder Type",
+      "funderTypePlaceholder": "e.g. Government",
+      "contactEmail": "Contact Email",
+      "contactEmailPlaceholder": "contact@example.com",
+      "contactPhone": "Contact Phone",
+    "contactPhonePlaceholder": "123456789"
+    }
+  },
+  "permissions": {
+    "title": "Permissions",
+    "pageDescription": "Manage system permissions",
+    "total": "Total",
+    "common": {"search": "Search Permissions"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Permission",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load permissions.",
+      "permissionNotFound": "Permission not found."
+    },
+    "table": {
+      "code": "Code",
+      "description": "Description",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Create Permission", "description": "Fill in the form to create a new permission"},
+      "edit": {"title": "Edit Permission", "description": "Update permission information"},
+      "delete": {"title": "Delete Permission", "description": "Are you sure you want to delete {code}?", "warning": "This action cannot be undone.", "confirmLabel": "Type {code} to confirm"}
+    },
+    "form": {
+      "code": "Code",
+      "codePlaceholder": "CREATE_USER",
+      "description": "Description",
+      "descriptionPlaceholder": "Permission description"
+    }
+  },
+  "rolesFeature": {
+    "title": "Roles",
+    "pageDescription": "Manage user roles",
+    "total": "Total",
+    "common": {"search": "Search Roles"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Role",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load roles.",
+      "roleNotFound": "Role not found."
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "organisationUnit": "Organisation Unit",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Create Role", "description": "Fill in the form to create a new role"},
+      "edit": {"title": "Edit Role", "description": "Update role information"},
+      "delete": {"title": "Delete Role", "description": "Are you sure you want to delete {name}?", "warning": "This action cannot be undone.", "confirmLabel": "Type {name} to confirm"}
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Manager",
+      "description": "Description",
+      "descriptionPlaceholder": "Role description",
+    "organisationUnit": "Organisation Unit",
+    "organisationUnitPlaceholder": "Select unit"
+    }
+  },
+  "userRoles": {
+    "title": "User Roles",
+    "pageDescription": "Manage role assignments",
+    "total": "Total",
+    "common": {"search": "Search Assignments"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Assign Role",
+      "creating": "Assigning...",
+      "delete": "Remove",
+      "deleting": "Removing...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load assignments.",
+      "assignmentNotFound": "Assignment not found."
+    },
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "createdAt": "Assigned",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Assign Role", "description": "Select user and role"},
+      "delete": {"title": "Remove Assignment", "description": "Remove {role} from {user}?", "warning": "This action cannot be undone.", "confirmLabel": "Type YES to confirm"}
+    },
+    "form": {
+      "userId": "User",
+      "userIdPlaceholder": "User ID",
+      "roleId": "Role",
+      "roleIdPlaceholder": "Role ID"
+    }
+  },
+  "userPositions": {
+    "title": "User Positions",
+    "pageDescription": "Manage assignments of users to positions",
+    "total": "Total",
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Assign Position",
+      "creating": "Assigning...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load assignments.",
+      "notFound": "Assignment not found."
+    },
+    "table": {
+      "username": "Username",
+      "position": "Position",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {
+        "title": "Assign Position",
+        "description": "Assign a user to a position"
+      },
+      "edit": {
+        "title": "Edit Assignment",
+        "description": "Update assignment details"
+      },
+      "delete": {
+        "title": "Delete Assignment",
+        "description": "Are you sure you want to delete this assignment?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type DELETE to confirm"
+      }
+    },
+    "form": {
+      "userId": "User",
+      "userIdPlaceholder": "Select user",
+      "positionId": "Position",
+      "positionIdPlaceholder": "Select position",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    }
+  },
+  "permissions": {
+    "title": "Permissions",
+    "pageDescription": "Manage system permissions",
+    "total": "Total",
+    "common": {"search": "Search Permissions"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Permission",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load permissions.",
+      "permissionNotFound": "Permission not found."
+    },
+    "table": {
+      "code": "Code",
+      "description": "Description",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Create Permission", "description": "Fill in the form to create a new permission"},
+      "edit": {"title": "Edit Permission", "description": "Update permission information"},
+      "delete": {"title": "Delete Permission", "description": "Are you sure you want to delete {code}?", "warning": "This action cannot be undone.", "confirmLabel": "Type {code} to confirm"}
+    },
+    "form": {
+      "code": "Code",
+      "codePlaceholder": "CREATE_USER",
+      "description": "Description",
+      "descriptionPlaceholder": "Permission description"
+    }
+  },
+  "rolesFeature": {
+    "title": "Roles",
+    "pageDescription": "Manage user roles",
+    "total": "Total",
+    "common": {"search": "Search Roles"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Role",
+      "creating": "Creating...",
+      "edit": "Edit",
+      "update": "Update",
+      "updating": "Updating...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load roles.",
+      "roleNotFound": "Role not found."
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "organisationUnit": "Organisation Unit",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Create Role", "description": "Fill in the form to create a new role"},
+      "edit": {"title": "Edit Role", "description": "Update role information"},
+      "delete": {"title": "Delete Role", "description": "Are you sure you want to delete {name}?", "warning": "This action cannot be undone.", "confirmLabel": "Type {name} to confirm"}
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Manager",
+      "description": "Description",
+      "descriptionPlaceholder": "Role description",
+    "organisationUnit": "Organisation Unit",
+    "organisationUnitPlaceholder": "Select unit"
+    }
+  },
+  "userRoles": {
+    "title": "User Roles",
+    "pageDescription": "Manage role assignments",
+    "total": "Total",
+    "common": {"search": "Search Assignments"},
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Assign Role",
+      "creating": "Assigning...",
+      "delete": "Remove",
+      "deleting": "Removing...",
+      "retry": "Retry",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Failed to load assignments.",
+      "assignmentNotFound": "Assignment not found."
+    },
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "createdAt": "Assigned",
+      "updatedAt": "Updated",
+      "actions": "Actions"
+    },
+    "dialogs": {
+      "create": {"title": "Assign Role", "description": "Select user and role"},
+      "delete": {"title": "Remove Assignment", "description": "Remove {role} from {user}?", "warning": "This action cannot be undone.", "confirmLabel": "Type YES to confirm"}
+    },
+    "form": {
+      "userId": "User",
+      "userIdPlaceholder": "Select user",
+      "roleId": "Role",
+      "roleIdPlaceholder": "Select role"
+    },
+    "noUsersFound": "No users found",
+    "noRolesFound": "No roles found"
+  },
+  "categories": {
+    "page": {
+      "title": "Categories",
+      "description": "Click on any category in the tree to view its details and children."
+    },
+    "loading": "Loading categories...",
+    "error": "Error loading categories",
+    "empty": {
+      "title": "No categories found",
+      "description": "The category list is empty."
+    },
+    "tree": {
+      "title": "Category Tree",
+      "rootLabel": "Categories",
+      "instructions": "Click on any category to view its children in the table"
+    },
+    "table": {
+      "name": "Name",
+      "description": "Description",
+      "updated": "Updated",
+      "actions": "Actions",
+      "openMenu": "Open menu",
+      "editCategory": "Edit Category",
+      "addChild": "Add Child Category",
+      "deleteCategory": "Delete Category",
+      "showing": "Showing",
+      "andChildren": "and its children",
+      "selectCategory": "Select a category from the tree to view its children",
+      "noChildren": "No child categories found under {name}"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "Edit Category",
+        "description": "Update category information"
+      },
+      "addChild": {
+        "title": "Add Child Category",
+        "description": "Create a new category under this one"
+      },
+      "delete": {
+        "title": "Delete Category",
+        "description": "Are you sure you want to delete {name}?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type {name} to confirm"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Category name",
+      "description": "Description",
+      "descriptionPlaceholder": "Category description"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "close": "Close"
+    },
+    "errors": {
+      "loadFailed": "Failed to load category.",
+      "categoryNotFound": "Category not found."
+    }
+  },
+  "organisationUnits": {
+    "page": {
+      "title": "Institution Organization Structure",
+      "description": "Click on any organization unit in the tree to view its details and children."
+    },
+    "loading": "Loading organization structure...",
+    "error": "Error loading organization structure",
+    "empty": {
+      "title": "No organization units found",
+      "description": "The organization structure is empty."
+    },
+    "tree": {
+      "title": "Organization Tree",
+      "rootLabel": "Organizations",
+      "instructions": "Click on any unit to view its children in the table"
+    },
+    "table": {
+      "name": "Name",
+      "code": "Code",
+      "level": "Level",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "updated": "Updated",
+      "actions": "Actions",
+      "openMenu": "Open menu",
+      "viewDetails": "View Details",
+      "editUnit": "Edit Unit",
+      "addChild": "Add Child Unit",
+      "managePositions": "Manage Positions",
+      "viewUsers": "View Users",
+      "deleteUnit": "Delete Unit",
+      "showing": "Showing",
+      "andChildren": "and its children",
+      "selectUnit": "Select a unit from the tree to view its children",
+      "noChildren": "No child units found under {name}"
+    },
+    "dialogs": {
+      "edit": {
+        "title": "Edit Organisation Unit",
+        "description": "Update organisation unit information"
+      },
+      "addChild": {
+        "title": "Add Child Unit",
+        "description": "Create a new organisation unit under this one"
+      },
+      "delete": {
+        "title": "Delete Organisation Unit",
+        "description": "Are you sure you want to delete {name}?",
+        "warning": "This action cannot be undone.",
+        "confirmLabel": "Type {name} to confirm"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Unit name",
+      "code": "Code",
+      "codePlaceholder": "CODE"
+    },
+    "tabs": {
+      "positions": "Positions",
+      "projects": "Projects",
+      "stakeholders": "Stakeholders",
+      "users": "Users"
+    },
+    "details": {
+      "basicInfo": "Basic Information",
+      "basicInfoDesc": "Organisation unit details"
+    },
+    "emptyLists": {
+      "positions": "No positions",
+      "projects": "No projects",
+      "stakeholders": "No stakeholders"
+    }
+  },
+  "positions": {
+    "title": "Positions",
+    "total": "Total",
+    "common": { "search": "Search Positions" },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Position",
+      "creating": "Creating...",
+      "retry": "Retry",
+      "cancel": "Cancel"
+    },
+    "errors": { "loadFailed": "Failed to load positions." },
+    "table": { "title": "Title", "description": "Description", "createdAt": "Created" },
+    "dialogs": { "create": { "title": "Create Position", "description": "Add a new position" } },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Position title",
+      "description": "Description",
+      "descriptionPlaceholder": "Description"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "total": "Total",
+    "common": { "search": "Search Projects" },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Project",
+      "creating": "Creating...",
+      "retry": "Retry",
+      "cancel": "Cancel",
+      "add": "Add",
+      "back": "Back",
+      "next": "Next",
+      "finish": "Finish"
+    },
+    "errors": { "loadFailed": "Failed to load projects." },
+    "table": { "title": "Title", "projectType": "Type", "year": "Year" },
+    "dialogs": { "create": { "title": "Create Project", "description": "Add a new project" } },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Project title",
+      "titleNorm": "Normalized Title",
+      "titleNormPlaceholder": "Normalized title",
+      "projectType": "Type",
+      "projectTypePlaceholder": "Project type",
+      "year": "Year",
+      "organisationUnitId": "Organisation Unit"
+    },
+    "wizard": {
+      "steps": {
+        "0": "Details & SDGs",
+        "1": "Authors",
+        "2": "Stakeholders",
+        "3": "Funders",
+        "4": "Attachments",
+        "5": "Evaluations",
+        "6": "Report",
+        "7": "Startup"
+      },
+      "form": {
+        "sdgs": "SDGs",
+        "authorUser": "User",
+        "authorRole": "Role",
+        "stakeholder": "Stakeholder",
+        "stakeholderRole": "Role",
+        "funder": "Funder",
+        "funderAmount": "Amount",
+        "attachmentUploader": "Uploader",
+        "attachmentFilename": "Filename",
+        "attachmentUrl": "URL",
+        "evaluationEvaluator": "Evaluator",
+        "evaluationScore": "Score",
+        "evaluationComments": "Comments",
+        "reportTitle": "Title",
+        "reportContent": "Content",
+        "reportSubmittedBy": "Submitted By",
+        "startupName": "Name",
+        "startupDescription": "Description",
+        "startupYear": "Year",
+        "startupRegistered": "Registered"
+      },
+      "stepLabel": "Step {current} of {total}: {name}",
+      "completed": "Completed",
+      "finishMessage": "Project setup finished"
+    }
+  },
+  "stakeholders": {
+    "title": "Stakeholders",
+    "total": "Total",
+    "common": { "search": "Search Stakeholders" },
+    "actions": {
+      "refresh": "Refresh",
+      "create": "Create Stakeholder",
+      "creating": "Creating...",
+      "retry": "Retry",
+      "cancel": "Cancel"
+    },
+    "errors": { "loadFailed": "Failed to load stakeholders." },
+    "noStakeholdersFound": "No stakeholders found",
+    "table": {
+      "name": "Name",
+      "stakeholderType": "Type",
+      "contactEmail": "Email",
+      "contactPhone": "Phone"
+    },
+    "dialogs": { "create": { "title": "Create Stakeholder", "description": "Add a new stakeholder" } },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Stakeholder name",
+      "stakeholderType": "Type",
+      "stakeholderTypePlaceholder": "Type",
+      "contactEmail": "Email",
+      "contactEmailPlaceholder": "email@example.com",
+      "contactPhone": "Phone",
+      "contactPhonePlaceholder": "123456789"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "tabs": {
+      "overview": "Overview"
+    },
+    "overview": {
+      "totalEarnings": "Total Earnings"
+    },
+    "exportButtons": {
+      "csv": "Export CSV"
+    },
+    "todayIs": "Today is",
+    "dateRanges": {
+      "last7Days": "Last 7 Days"
+    }
+  },
+  "routes": {
+    "title": "Routes",
+    "table": {
+      "from": "From",
+      "to": "To",
+      "price": "Price"
+    },
+    "noRoutesFound": "No Routes Found"
+  },
+  "schedules": {
+    "title": "Schedules",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "onTime": "On Time"
+    },
+    "table": {
+      "busNumber": "Bus Number",
+      "driver": "Driver"
+    },
+    "timeFrames": {
+      "today": "Today"
+    }
+  },
+  "attachments": {
+    "title": "Attachments",
+    "upload": "Upload Files",
+    "uploading": "Uploading...",
+    "uploadSuccess": "File uploaded successfully",
+    "uploadError": "Failed to upload file"
+  },
+  "Auth": {
+    "EmailVerification": {
+      "title": "Email Verification",
+      "description": "Verifying your email address",
+      "verifying": "Verifying your email address...",
+      "success": "Your email has been successfully verified!",
+      "error": "There was a problem verifying your email address.",
+      "proceedToLogin": "Proceed to Login",
+      "backToLogin": "Back to Login"
+    },
+    "ForgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email to reset your password",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@example.com",
+      "sendingLink": "Sending reset link...",
+      "sendLink": "Send Reset Link",
+      "rememberPassword": "Remember your password?",
+      "loginLink": "Log in"
+    },
+    "Login": {
+      "title": "Welcome back",
+      "description": "Enter your credentials to access your account",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@example.com",
+      "passwordLabel": "Password",
+      "forgotPasswordLink": "Forgot password?",
+      "signingIn": "Signing in...",
+      "signIn": "Sign In"
+    },
+    "ResetPassword": {
+      "title": "Reset Password",
+      "description": "Enter your new password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "resettingPassword": "Resetting password...",
+      "resetPassword": "Reset Password",
+      "rememberPassword": "Remember your password?",
+      "loginLink": "Log in"
+    },
+    "noRoles": "No roles",
+    "logoutSuccess": "Logged out successfully!",
+    "editProfile": "Edit Profile",
+    "changeLanguage": "Change Language ({language})",
+    "changeTheme": "Change Theme ({mode})",
+    "settings": "Settings",
+    "account": "Account",
+    "help": "Help & Support",
+    "about": "About",
+    "logout": "Logout",
+    "version": "Version",
+    "developedBy": "Developed by",
+    "status": "Status",
+    "lastUpdated": "Last Updated"
+  },
+  "sidebar": {
+    "notifications": {
+      "title": "Notifications",
+      "markAllRead": "Mark all as read",
+      "clearAll": "Clear all",
+      "markAsUnread": "Mark as unread",
+      "markAsRead": "Mark as read",
+      "deleteNotification": "Delete notification",
+      "ignore": "Ignore",
+      "viewAll": "View all notifications"
+    },
+    "Management": "Management",
+    "Dashboard": "Dashboard",
+    "Projects": "Projects",
+    "Tasks": "Tasks",
+    "Users": "Users",
+    "Reporting": "Reporting",
+    "Reports": "Reports",
+    "Analytics": "Analytics",
+    "OrganisationUnits": "Organisation Units",
+    "Roles": "Roles",
+    "Permissions": "Permissions",
+    "Categories": "Categories",
+    "Attachments": "Attachments",
+    "Positions": "Positions",
+    "UserRoles": "User Roles",
+    "UserPositions": "User Positions",
+    "Funders": "Funders",
+    "Stakeholders": "Stakeholders",
+    "Evaluations": "Evaluations",
+    "ProjectAuthors": "Project Authors",
+    "ProjectReports": "Project Reports",
+    "ProjectStakeholders": "Project Stakeholders",
+    "ProjectEvaluations": "Project Evaluations",
+    "ProjectFunders": "Project Funders",
+    "Startups": "Startups",
+    "SDGs": "SDGs",
+    "Theme": "Theme",
+    "Light": "Light",
+    "Dark": "Dark",
+    "Language": "Language",
+    "English": "English",
+    "French": "French",
+    "Korean": "Korean",
+    "Preferences": "Preferences",
+    "SignOut": "Sign Out",
+    "systemName": "Kangalos"
+  }
+}

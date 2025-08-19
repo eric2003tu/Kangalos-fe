@@ -1,0 +1,40 @@
+name: "🎨 UI Improvement"
+description: "Suggest a UI/UX improvement or report a design issue."
+title: "[UI] <short description>"
+labels: [ui, enhancement]
+body:
+  - type: input
+    id: area
+    attributes:
+      label: "UI Area/Component"
+      description: "Which part of the UI is affected?"
+      placeholder: "e.g. Sidebar, Project List, Language Switcher"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Current Issue"
+      description: "Describe the current UI/UX problem."
+      placeholder: "What is wrong or could be improved?"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested Improvement"
+      description: "Describe your proposed improvement."
+      placeholder: "How should it look or behave?"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have checked for similar UI issues."
+          required: true
+        - label: "My suggestion follows the design system (Tailwind, Radix UI)."
+          required: true
+        - label: "All user-facing text will be translatable."
+          required: true
